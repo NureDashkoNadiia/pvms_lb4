@@ -5,7 +5,7 @@ const fs = require("fs");
 const sportsData = JSON.parse(fs.readFileSync("sports_data.json", "utf8"));
 const usersData = {};
 
-const token = "7792431502:AAFeeoQ6ZU4y1aod-M6OSmg9afrXcFZpXIU"; // Замініть на ваш токен
+const token = "Тут має бути токен";
 const bot = new TelegramBot(token, { polling: true });
 
 const mainMenu = {
